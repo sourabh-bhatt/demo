@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: sans-serif;
+    background-color: #3a3939;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+nav li a:hover{
+    background-color: gray;
+}
+
+nav li a {
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.nav-button{
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #17a017;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    background-color: #48bb48;
+}
+
+.infoContainer {
+    width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+.devInfo .hello {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.devInfo .name {
+    font-size: 2.5em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.devInfo .about {
+    font-size: 2em;
+}
+
+.devInfo .moreAbout {
+    font-size: 1.2em;
+    font-family: sans-serif;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 20px;
+    color: white;
+    background-color: #1e90ff;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 2px;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.btn:hover {
+    color: #1e90ff;
+    background-color: white;
+}
+
+
+.devPic img {
+    height: 58vh;
+}
+
+/* Intro CSS */
+
+.introContainer{
+    margin: 20px 100px;
+}
+
+.introContainer h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 12px 12px;
+    font-size: 2em;
+}
+
+.introContainer p {
+    font-family: monospace;
+    font-size: 17px;
+    margin: 12px 16px;
+}
+
+.skillContainer {
+    padding: 20px;
+    background-color: rgb(247, 242, 242);
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-family: monospace;
+}
+
+.skill {
+    width: 265px;
+    height: 12px;
+    border: 1px solid rgb(116, 114, 114);
+    margin-left: 6px;
+}
+
+.hundred {
+    width: 260px;
+    background-color: blueviolet;
+}
+
+.seventyFive {
+    width: 190px;
+    background-color: pink;
+}
+
+.fifty {
+    width: 133px;
+    background-color: aqua;
+}
+
+.twentyFive {
+    width: 70px;
+    background-color: yellow;
+}
+
+
+/* Contact Form CSS */
+
+.contactForm {
+    margin: 50px 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.contactForm h1 {
+    font-family: monospace;
+    text-align: center;
+}
+
+.contactForm form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm form div {
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input {
+    width: 40vw;
+    border-radius: 13px;
+    margin: 6px 0 0 0;
+    padding: 0px;
+    height: 30px;
+}
+
+#checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+#checkbox input {
+    margin: 2px 6px 0 0;
+    width: 12px;
+    height: 14px;
+}
+
+
+/* Blogs CSS */
+
+.blogContainer{
+    margin: 40px 100px;
+}
+
+.blogContainer h1 {
+    font-family: sans-serif;
+    margin: 23px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.blogContainer h2 {
+    font-family: sans-serif;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.blogItem p {
+    font-family: monospace;
+    font-size: 1.2em;
+    color: #191970;
+}
+
+.blogItem button a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+}
+
+.blogItem button a:hover{
+    color: #1e90ff;
+}
+
+.btn-sm {
+    font-size: 14px;
+    margin: 7px 0;
+    border: 1px solid;
+}
+
+/* Blog CSS */
+
+.blog{
+    margin: 20px 100px;
+}
+
+.blog-title{
+    width: 50em;
+    margin: auto;
+}
+
+.blog-name{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.blog-author{
+    font-size: 25px;
+    margin-top: 7px;
+    text-align: right;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.blog-body{
+    font-size: 23px;
+    font-family: monospace;
+    margin-top: 20px;
+}
+
+/* Services CSS */
+
+.serviceContainer{
+    margin: 20px 50px;
+}
+
+.service-title{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pricing-title{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.pricing-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0px 150px;
+}
+
+.box-title{
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.pricing-box{
+    border: solid #191970 2px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service-desc ul{
+    margin-left: 20px;
+}
+
+.service-desc ul li{
+    margin: 10px 0;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.price{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.choose-btn{
+    width: 130px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #191970;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 20px auto 10px auto;
+    display: block;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.choose-btn:hover{
+    background-color: #fff;
+    color: #191970;
+    border: 2px solid #191970;
+}
